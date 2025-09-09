@@ -18,10 +18,10 @@ export default function Home() {
                 All online, all transparent, all better.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/start">
-                  <Button size="lg" className="w-full sm:w-auto">
+                <Link href="/start" className=''>
+                  <Button size="lg" className="w-full sm:w-auto flex justify-center items-center">
                     Get Pre-approved
-                    <ArrowRight className="ml-2 h-5 w-5" />
+                    <ArrowRight className="ml-2 h-5 w-5 " />
                   </Button>
                 </Link>
                 <Link href="/mortgage-calculator">
