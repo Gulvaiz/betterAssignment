@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="col-span-1 md:col-span-2">
             <h3 className="text-2xl font-bold text-white mb-4">Better.com</h3>
             <p className="text-gray-300 mb-6 max-w-md">
-              We're making homeownership more accessible, affordable, and easier to understand for everyone.
+              We&apos;re making homeownership more accessible, affordable, and easier to understand for everyone.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">

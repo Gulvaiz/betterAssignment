@@ -69,7 +69,7 @@ export default function Home() {
               Why choose Better.com?
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We've reimagined the mortgage process to be faster, more transparent, and less stressful.
+              We&apos;ve reimagined the mortgage process to be faster, more transparent, and less stressful.
             </p>
           </div>
 
@@ -90,7 +90,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold mb-3">Transparent Pricing</h3>
               <p className="text-gray-600">
-                No hidden fees, no surprises. See exactly what you'll pay upfront with our transparent pricing.
+                No hidden fees, no surprises. See exactly what you&apos;ll pay upfront with our transparent pricing.
               </p>
             </div>
 
@@ -148,7 +148,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "The entire process was seamless and transparent. I knew exactly what to expect at every step."
+                &ldquo;The entire process was seamless and transparent. I knew exactly what to expect at every step.&rdquo;
               </p>
               <div className="font-semibold">Sarah Johnson</div>
               <div className="text-sm text-gray-500">First-time homebuyer</div>
@@ -161,7 +161,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "I was able to close on my home in just 3 weeks. The digital process made everything so much easier."
+                &ldquo;I was able to close on my home in just 3 weeks. The digital process made everything so much easier.&rdquo;
               </p>
               <div className="font-semibold">Michael Chen</div>
               <div className="text-sm text-gray-500">Refinanced homeowner</div>
@@ -174,7 +174,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-gray-600 mb-4">
-                "The customer service was outstanding. They answered all my questions and made the process stress-free."
+                &ldquo;The customer service was outstanding. They answered all my questions and made the process stress-free.&rdquo;
               </p>
               <div className="font-semibold">Emily Rodriguez</div>
               <div className="text-sm text-gray-500">Repeat customer</div>

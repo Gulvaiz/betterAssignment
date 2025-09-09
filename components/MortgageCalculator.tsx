@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import Button from './Button'
 
 interface CalculatorData {
@@ -30,11 +30,7 @@ export default function MortgageCalculator() {
   const [totalInterest, setTotalInterest] = useState(0)
   const [totalCost, setTotalCost] = useState(0)
 
-  useEffect(() => {
-    calculateMortgage()
-  }, [data])
-
-  const calculateMortgage = () => {
+  const calculateMortgage = useCallback(() => {
     const { loanAmount, interestRate, loanTerm, propertyTax, homeInsurance, pmi } = data
     
     const monthlyRate = interestRate / 100 / 12
@@ -59,7 +55,11 @@ export default function MortgageCalculator() {
     setMonthlyPayment(Math.round(totalMonthly))
     setTotalInterest(Math.round(totalInterestPaid))
     setTotalCost(Math.round(totalCostOfHome))
-  }
+  }, [data])
+
+  useEffect(() => {
+    calculateMortgage()
+  }, [calculateMortgage])
 
   const handleInputChange = (field: keyof CalculatorData, value: number) => {
     setData(prev => {
